@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjectGymTracker">
         <activity
+            android:name=".ExerciseManagerInterface"
+            android:label="@string/title_activity_exercise_manager_interface"
+            android:theme="@style/Theme.ProjectGymTracker.NoActionBar"></activity>
+        <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.ProjectGymTracker.NoActionBar">
